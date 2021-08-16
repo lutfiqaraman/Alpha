@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alpha.Web", "Alpha.Web\Alpha.Web.csproj", "{E84F93CB-8839-4CF2-9997-6A5949AC0C67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alpha.Web", "Alpha.Web\Alpha.Web.csproj", "{E84F93CB-8839-4CF2-9997-6A5949AC0C67}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4CA50298-714B-4604-91AE-7A285494F91C} = {4CA50298-714B-4604-91AE-7A285494F91C}
+		{75E1E29E-ACBA-4D04-B568-396B55F44894} = {75E1E29E-ACBA-4D04-B568-396B55F44894}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alpha.EntityFramework", "Alpha.EntityFramework\Alpha.EntityFramework.csproj", "{75E1E29E-ACBA-4D04-B568-396B55F44894}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alpha.EntityFramework", "Alpha.EntityFramework\Alpha.EntityFramework.csproj", "{75E1E29E-ACBA-4D04-B568-396B55F44894}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B40A2A2A-C005-4F4D-AA2E-4A58E43DF696} = {B40A2A2A-C005-4F4D-AA2E-4A58E43DF696}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alpha.BAL", "Alpha.BAL\Alpha.BAL.csproj", "{4CA50298-714B-4604-91AE-7A285494F91C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alpha.BAL", "Alpha.BAL\Alpha.BAL.csproj", "{4CA50298-714B-4604-91AE-7A285494F91C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B40A2A2A-C005-4F4D-AA2E-4A58E43DF696} = {B40A2A2A-C005-4F4D-AA2E-4A58E43DF696}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alpha.DAL", "Alpha.DAL\Alpha.DAL.csproj", "{B40A2A2A-C005-4F4D-AA2E-4A58E43DF696}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alpha.DAL", "Alpha.DAL\Alpha.DAL.csproj", "{B40A2A2A-C005-4F4D-AA2E-4A58E43DF696}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
